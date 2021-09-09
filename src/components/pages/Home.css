@@ -1,0 +1,68 @@
+.home {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.header {
+  margin: 5% 23%;
+}
+
+.top {
+  border-top: 3px solid black;
+}
+.toptop {
+  width: 50%;
+  margin: 3% auto;
+}
+.topbottom {
+  width: 80%;
+  margin: 1% auto;
+  padding: 3%;
+}
+.topbottom ul {
+  padding: 2% 16% 0 16%;
+}
+
+.middle {
+  display: flex;
+  padding: 2% 7%;
+  border-top: 3px solid black;
+}
+
+.midleft {
+  width: 50%;
+  padding: 2%;
+}
+.midright {
+  text-align: center;
+  margin: 3%;
+  padding: 12% 5%;
+  font-family: "PT Sans", sans-serif;
+}
+
+.toys {
+  margin: 2% 16%;
+  border: 1px solid black;
+}
+
+.bottom {
+  display: flex;
+}
+.botleft {
+  width: 50%;
+  background-color: #ed6258;
+  border-radius: 20px;
+  margin: 1%;
+  padding: 4%;
+}
+.botright {
+  width: 50%;
+  margin: 1%;
+  padding: 3%;
+}
+.circle {
+  height: 10rem;
+  width: 20rem;
+  margin: 0 15%;
+  padding: 4%;
+}
