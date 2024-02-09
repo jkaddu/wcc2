@@ -62,13 +62,10 @@ function Home() {
       </section>
 
       <section className="middle">
-        <div className="midleft">
-          <img src={Jackson} alt="book cover" />
-        </div>
         <div className="midright">
           <h3>Overview</h3>
           <p>
-            ​ Most of us have experienced some sort of setback at one time or
+            ​Most of us have experienced some sort of setback at one time or
             another in life. Many people desire more out of life but for some it
             just seems impossible to get past their hang ups, recover from their
             hurts and change their belief system to allow them to progress into
@@ -82,9 +79,11 @@ function Home() {
           </p>
         </div>
       </section>
-      <div>
-        <img className="toys" src={Toys} alt="toys for tots" />
+
+      <div className="toys">
+        <img src={Toys} alt="toys for tots" />
       </div>
+
       <section className="bottom">
         <div className="botleft">
           <h3>We Believe</h3>
@@ -102,11 +101,14 @@ function Home() {
             "Remember, the key is to believe in yourself, never give up, and
             move forward for what you want in life to be successful"
             <br />
-            <br /> -Sarout Long 1999
+            <br /> - Sarout Long
           </p>
           <img className="circle" src={GetInvolved} alt="circle of people" />
         </div>
       </section>
+      <footer>
+        <p>Copyright @ West Coast Center for Victorious Youth 2024</p>
+      </footer>
     </div>
   );
 }
