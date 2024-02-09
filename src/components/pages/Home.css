@@ -1,32 +1,44 @@
 .home {
-  max-width: 80%;
+  width: 80%;
   margin: 0 auto;
 }
 
-.header {
-  margin: 5% 23%;
+header {
+  display: flex;
+  justify-content: center;
 }
 
 .top {
-  border-top: 3px solid black;
+  border-top: 5px solid black;
 }
-.toptop {
-  width: 50%;
-  margin: 3% auto;
+.topRow {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
 }
 .topbottom {
   width: 80%;
-  margin: 1% auto;
+  margin: 3% auto;
   padding: 3%;
+  font-size: 20px;
+  line-height: 1.5;
+}
+.topbottom p {
+  color: #495057;
 }
 .topbottom ul {
   padding: 2% 16% 0 16%;
+  font-size: 24px;
+  color: #495057;
+}
+.topbottom ul strong {
+  font-size: 36px;
 }
 
 .middle {
   display: flex;
   padding: 2% 7%;
-  border-top: 3px solid black;
+  border-top: 5px solid black;
 }
 
 .midleft {
