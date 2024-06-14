@@ -12,6 +12,7 @@ import Change from "./pages/Change";
 import Women from "./pages/Women";
 import Otb from "./pages/Otb";
 import Volunteers from "./pages/Volunteers";
+import Donate from "./pages/Donate";
 import "./App.css";
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
           <Route exact path="/women" component={Women} />
           <Route exact path="/otb" component={Otb} />
           <Route exact path="/volunteers" component={Volunteers} />
+          <Route exact path="/donate" component={Donate} />
         </Switch>
       </Router>
     </div>
