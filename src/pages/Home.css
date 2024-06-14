@@ -46,6 +46,7 @@ header {
 .midright {
   padding: 5%;
   background-color: red;
+  border-radius: 9px;
   color: #fff;
 }
 .midright h3 {
@@ -77,7 +78,8 @@ header {
 .botleft {
   font-size: 20px;
   width: 50%;
-  background-color: red;
+  background-color: #ff9a85;
+  border-radius: 9px;
   margin: 1%;
   padding: 4%;
 }
@@ -100,4 +102,20 @@ footer {
   text-align: center;
   padding: 3%;
   color: #495057;
+}
+
+/*********************************/
+/* Funders Page */
+/*********************************/
+
+.infoDiv {
+  background-color: red;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5.2rem;
+  height: 100vh;
+  font-size: 4.2rem;
 }

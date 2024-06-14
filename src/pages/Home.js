@@ -1,8 +1,7 @@
 import React from "react";
-import Header from "../../images/WCC_HEADER.png";
-import Jackson from "../../images/ajackson_book.jpeg";
-import Toys from "../../images/wcc_toys4tots_2017.png";
-import GetInvolved from "../../images/Get_involved1.jpeg";
+import Header from "../images/WCC_HEADER.png";
+import Toys from "../images/wcc_toys4tots_2017.png";
+import GetInvolved from "../images/Get_involved1.jpeg";
 import { YoutubePlayer } from "reactjs-media";
 import "./Home.css";
 

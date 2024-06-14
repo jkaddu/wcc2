@@ -1,8 +1,9 @@
-import Jackson from "../../images/ajackson_book.jpeg";
+import Jackson from "../images/ajackson_book.jpeg";
+import "./Home.css";
 
 function Founders() {
   return (
-    <div>
+    <div className="infoDiv">
       <img src={Jackson} alt="book cover" />
     </div>
   );
